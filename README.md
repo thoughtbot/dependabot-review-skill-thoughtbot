@@ -56,6 +56,23 @@ the chat transcript.
 
 ## Installation
 
+### Via Claude Code
+
+Add the [thoughtbot marketplace](https://github.com/thoughtbot/skills) to
+Claude Code:
+
+```
+/plugin marketplace add thoughtbot/skills
+```
+
+Install the plugin:
+
+```
+/plugin install dependabot-review-skill-thoughtbot@skills
+```
+
+### Manually
+
 Copy the skill directory to your Claude Code skills folder:
 
 ```bash
@@ -65,7 +82,7 @@ cp -r dependabot-review-thoughtbot ~/.claude/skills/
 Or clone directly:
 
 ```bash
-git clone https://github.com/thoughtbot/dependabot-review-thoughtbot ~/.claude/skills/dependabot-review-thoughtbot
+git clone https://github.com/thoughtbot/dependabot-review-skill-thoughtbot ~/.claude/skills/dependabot-review-thoughtbot
 ```
 
 ## Usage
